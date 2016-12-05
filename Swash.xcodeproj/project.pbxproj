@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		574AFA241DF556B300AE68AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA231DF556B300AE68AF /* AppDelegate.swift */; };
-		574AFA261DF556B300AE68AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA251DF556B300AE68AF /* ViewController.swift */; };
 		574AFA291DF556B300AE68AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574AFA271DF556B300AE68AF /* Main.storyboard */; };
 		574AFA2B1DF556B300AE68AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AFA2A1DF556B300AE68AF /* Assets.xcassets */; };
 		574AFA2E1DF556B300AE68AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574AFA2C1DF556B300AE68AF /* LaunchScreen.storyboard */; };
+		574AFA3E1DF59AEA00AE68AF /* DZZUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA3D1DF59AEA00AE68AF /* DZZUserTableViewCell.swift */; };
+		574AFA401DF59B0900AE68AF /* DZZUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */; };
+		574AFA421DF59BB800AE68AF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA411DF59BB800AE68AF /* UserModel.swift */; };
+		574AFA441DF59C6A00AE68AF /* DDZModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA431DF59C6A00AE68AF /* DDZModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		574AFA201DF556B300AE68AF /* Swash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574AFA231DF556B300AE68AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		574AFA251DF556B300AE68AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		574AFA281DF556B300AE68AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		574AFA2A1DF556B300AE68AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574AFA2D1DF556B300AE68AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574AFA2F1DF556B300AE68AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574AFA3D1DF59AEA00AE68AF /* DZZUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUserTableViewCell.swift; sourceTree = "<group>"; };
+		574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUserTableViewController.swift; sourceTree = "<group>"; };
+		574AFA411DF59BB800AE68AF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		574AFA431DF59C6A00AE68AF /* DDZModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDZModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				574AFA231DF556B300AE68AF /* AppDelegate.swift */,
-				574AFA251DF556B300AE68AF /* ViewController.swift */,
 				574AFA271DF556B300AE68AF /* Main.storyboard */,
 				574AFA2A1DF556B300AE68AF /* Assets.xcassets */,
 				574AFA2C1DF556B300AE68AF /* LaunchScreen.storyboard */,
 				574AFA2F1DF556B300AE68AF /* Info.plist */,
+				574AFA3D1DF59AEA00AE68AF /* DZZUserTableViewCell.swift */,
+				574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */,
+				574AFA411DF59BB800AE68AF /* UserModel.swift */,
+				574AFA431DF59C6A00AE68AF /* DDZModel.swift */,
 			);
 			path = Swash;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574AFA261DF556B300AE68AF /* ViewController.swift in Sources */,
+				574AFA401DF59B0900AE68AF /* DZZUserTableViewController.swift in Sources */,
 				574AFA241DF556B300AE68AF /* AppDelegate.swift in Sources */,
+				574AFA421DF59BB800AE68AF /* UserModel.swift in Sources */,
+				574AFA441DF59C6A00AE68AF /* DDZModel.swift in Sources */,
+				574AFA3E1DF59AEA00AE68AF /* DZZUserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

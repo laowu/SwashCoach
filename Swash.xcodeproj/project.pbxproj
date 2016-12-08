@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5705A6A81DF6646F004CF1C1 /* DZZUtilsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5705A6A71DF6646F004CF1C1 /* DZZUtilsTableViewCell.swift */; };
+		5705A6AB1DF666DE004CF1C1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5705A6A91DF666DE004CF1C1 /* 1.jpg */; };
+		5705A6AC1DF666DE004CF1C1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5705A6AA1DF666DE004CF1C1 /* 2.png */; };
+		570776A41DF9938D009B561E /* AlfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570776A31DF9938D009B561E /* AlfaViewController.swift */; };
+		570776A61DF9939E009B561E /* BetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570776A51DF9939E009B561E /* BetaViewController.swift */; };
+		572F3F301DF84B6100314C3E /* DZZSexSelectingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F3F2F1DF84B6100314C3E /* DZZSexSelectingTableViewCell.swift */; };
+		572F3F321DF84BE600314C3E /* DZZSexSelectingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F3F311DF84BE600314C3E /* DZZSexSelectingTableViewController.swift */; };
 		574AFA241DF556B300AE68AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA231DF556B300AE68AF /* AppDelegate.swift */; };
 		574AFA291DF556B300AE68AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574AFA271DF556B300AE68AF /* Main.storyboard */; };
 		574AFA2B1DF556B300AE68AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AFA2A1DF556B300AE68AF /* Assets.xcassets */; };
@@ -15,9 +22,22 @@
 		574AFA401DF59B0900AE68AF /* DZZUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */; };
 		574AFA421DF59BB800AE68AF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA411DF59BB800AE68AF /* UserModel.swift */; };
 		574AFA441DF59C6A00AE68AF /* DDZModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AFA431DF59C6A00AE68AF /* DDZModel.swift */; };
+		57BBFA731DF6A6A100A56397 /* DZZUserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBFA721DF6A6A100A56397 /* DZZUserInfoTableViewCell.swift */; };
+		57BBFA781DF6D17B00A56397 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BBFA741DF6D17B00A56397 /* 21.jpg */; };
+		57BBFA791DF6D17B00A56397 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BBFA751DF6D17B00A56397 /* 22.jpg */; };
+		57BBFA7A1DF6D17B00A56397 /* 23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57BBFA761DF6D17B00A56397 /* 23.jpeg */; };
+		57BBFA7F1DF6D1EC00A56397 /* 24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57BBFA7E1DF6D1EC00A56397 /* 24.jpeg */; };
+		57BBFA811DF6D26B00A56397 /* DZZUserUtilsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBFA801DF6D26B00A56397 /* DZZUserUtilsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5705A6A71DF6646F004CF1C1 /* DZZUtilsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUtilsTableViewCell.swift; sourceTree = "<group>"; };
+		5705A6A91DF666DE004CF1C1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5705A6AA1DF666DE004CF1C1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		570776A31DF9938D009B561E /* AlfaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlfaViewController.swift; sourceTree = "<group>"; };
+		570776A51DF9939E009B561E /* BetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetaViewController.swift; sourceTree = "<group>"; };
+		572F3F2F1DF84B6100314C3E /* DZZSexSelectingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZSexSelectingTableViewCell.swift; sourceTree = "<group>"; };
+		572F3F311DF84BE600314C3E /* DZZSexSelectingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZSexSelectingTableViewController.swift; sourceTree = "<group>"; };
 		574AFA201DF556B300AE68AF /* Swash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574AFA231DF556B300AE68AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		574AFA281DF556B300AE68AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +48,12 @@
 		574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUserTableViewController.swift; sourceTree = "<group>"; };
 		574AFA411DF59BB800AE68AF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		574AFA431DF59C6A00AE68AF /* DDZModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDZModel.swift; sourceTree = "<group>"; };
+		57BBFA721DF6A6A100A56397 /* DZZUserInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		57BBFA741DF6D17B00A56397 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		57BBFA751DF6D17B00A56397 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		57BBFA761DF6D17B00A56397 /* 23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpeg; sourceTree = "<group>"; };
+		57BBFA7E1DF6D1EC00A56397 /* 24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpeg; sourceTree = "<group>"; };
+		57BBFA801DF6D26B00A56397 /* DZZUserUtilsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZZUserUtilsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,8 @@
 			children = (
 				574AFA231DF556B300AE68AF /* AppDelegate.swift */,
 				574AFA271DF556B300AE68AF /* Main.storyboard */,
+				570776A31DF9938D009B561E /* AlfaViewController.swift */,
+				570776A51DF9939E009B561E /* BetaViewController.swift */,
 				574AFA2A1DF556B300AE68AF /* Assets.xcassets */,
 				574AFA2C1DF556B300AE68AF /* LaunchScreen.storyboard */,
 				574AFA2F1DF556B300AE68AF /* Info.plist */,
@@ -69,6 +97,17 @@
 				574AFA3F1DF59B0900AE68AF /* DZZUserTableViewController.swift */,
 				574AFA411DF59BB800AE68AF /* UserModel.swift */,
 				574AFA431DF59C6A00AE68AF /* DDZModel.swift */,
+				5705A6A71DF6646F004CF1C1 /* DZZUtilsTableViewCell.swift */,
+				5705A6A91DF666DE004CF1C1 /* 1.jpg */,
+				5705A6AA1DF666DE004CF1C1 /* 2.png */,
+				57BBFA741DF6D17B00A56397 /* 21.jpg */,
+				57BBFA751DF6D17B00A56397 /* 22.jpg */,
+				57BBFA761DF6D17B00A56397 /* 23.jpeg */,
+				57BBFA7E1DF6D1EC00A56397 /* 24.jpeg */,
+				57BBFA721DF6A6A100A56397 /* DZZUserInfoTableViewCell.swift */,
+				57BBFA801DF6D26B00A56397 /* DZZUserUtilsModel.swift */,
+				572F3F2F1DF84B6100314C3E /* DZZSexSelectingTableViewCell.swift */,
+				572F3F311DF84BE600314C3E /* DZZSexSelectingTableViewController.swift */,
 			);
 			path = Swash;
 			sourceTree = "<group>";
@@ -132,8 +171,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BBFA7A1DF6D17B00A56397 /* 23.jpeg in Resources */,
 				574AFA2E1DF556B300AE68AF /* LaunchScreen.storyboard in Resources */,
+				57BBFA791DF6D17B00A56397 /* 22.jpg in Resources */,
+				57BBFA7F1DF6D1EC00A56397 /* 24.jpeg in Resources */,
+				5705A6AB1DF666DE004CF1C1 /* 1.jpg in Resources */,
+				5705A6AC1DF666DE004CF1C1 /* 2.png in Resources */,
 				574AFA2B1DF556B300AE68AF /* Assets.xcassets in Resources */,
+				57BBFA781DF6D17B00A56397 /* 21.jpg in Resources */,
 				574AFA291DF556B300AE68AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,9 +192,16 @@
 			files = (
 				574AFA401DF59B0900AE68AF /* DZZUserTableViewController.swift in Sources */,
 				574AFA241DF556B300AE68AF /* AppDelegate.swift in Sources */,
+				5705A6A81DF6646F004CF1C1 /* DZZUtilsTableViewCell.swift in Sources */,
+				570776A61DF9939E009B561E /* BetaViewController.swift in Sources */,
+				57BBFA811DF6D26B00A56397 /* DZZUserUtilsModel.swift in Sources */,
+				572F3F301DF84B6100314C3E /* DZZSexSelectingTableViewCell.swift in Sources */,
 				574AFA421DF59BB800AE68AF /* UserModel.swift in Sources */,
+				572F3F321DF84BE600314C3E /* DZZSexSelectingTableViewController.swift in Sources */,
+				570776A41DF9938D009B561E /* AlfaViewController.swift in Sources */,
 				574AFA441DF59C6A00AE68AF /* DDZModel.swift in Sources */,
 				574AFA3E1DF59AEA00AE68AF /* DZZUserTableViewCell.swift in Sources */,
+				57BBFA731DF6A6A100A56397 /* DZZUserInfoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +351,7 @@
 				574AFA341DF556B300AE68AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

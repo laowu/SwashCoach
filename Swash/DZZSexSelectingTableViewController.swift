@@ -22,7 +22,7 @@ class DZZSexSelectingTableViewController: UITableViewController {
     var selectedSex:String?{
         didSet{
             if let sex = selectedSex{
-                selectedIndex = sexArr.indexOf(sex)!
+                selectedIndex = sexArr.index(of: sex)!
             }
         }
     }
@@ -45,19 +45,19 @@ class DZZSexSelectingTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return sexArr.count
     }
 
     
-     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("sexSelectingCell", forIndexPath: indexPath)as!DZZSexSelectingTableViewCell
+     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "sexSelectingCell", for: indexPath)as!DZZSexSelectingTableViewCell
         cell.textLabel?.text = sexArr[indexPath.row]
      // Configure the cell...
 //        if indexPath.row == selectedIndex{
@@ -71,19 +71,19 @@ class DZZSexSelectingTableViewController: UITableViewController {
 //        cell.selectedBackgroundView?.backgroundColor =
 //            UIColor(red: 135/255, green: 191/255, blue: 49/255, alpha: 1)
 
-        cell.selectionStyle = UITableViewCellSelectionStyle.Gray
+        cell.selectionStyle = UITableViewCellSelectionStyle.gray
         return cell
      }
  
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //already selected obj
         if let index = selectedIndex{
-            let cell = tableView.cellForRowAtIndexPath(NSIndexPath(forRow: index,inSection: 0))
-            cell?.accessoryType = .None
+            let cell = tableView.cellForRow(at: IndexPath(row: index,section: 0))
+            cell?.accessoryType = .none
         }
         selectedSex = sexArr[indexPath.row]
-        let cell = tableView.cellForRowAtIndexPath(NSIndexPath(forRow: indexPath.row,inSection: 0))
-        cell?.accessoryType = .Checkmark
+        let cell = tableView.cellForRow(at: IndexPath(row: indexPath.row,section: 0))
+        cell?.accessoryType = .checkmark
     }
 //    override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
 //        if let index = selectedIndex {
@@ -185,7 +185,7 @@ class DZZSexSelectingTableViewController: UITableViewController {
      
     */
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         

@@ -22,14 +22,14 @@ class AlfaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func returnfromBeta(segue:UIStoryboardSegue)
+    @IBAction func returnfromBeta(_ segue:UIStoryboardSegue)
     {
         
     }
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        let ctl:BetaViewController = segue.destinationViewController as! BetaViewController
+        let ctl:BetaViewController = segue.destination as! BetaViewController
     
         ctl.strLblText = "haha"
     }

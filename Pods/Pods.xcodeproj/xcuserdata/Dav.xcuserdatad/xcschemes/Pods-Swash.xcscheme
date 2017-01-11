@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "574AFA1F1DF556B300AE68AF"
-               BuildableName = "Swash.app"
-               BlueprintName = "Swash"
-               ReferencedContainer = "container:Swash.xcodeproj">
+               BlueprintIdentifier = "0BB8B99E7BF07805CFDC5B0A3F2B73D5"
+               BuildableName = "Pods_Swash.framework"
+               BlueprintName = "Pods-Swash"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "574AFA1F1DF556B300AE68AF"
-            BuildableName = "Swash.app"
-            BlueprintName = "Swash"
-            ReferencedContainer = "container:Swash.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "574AFA1F1DF556B300AE68AF"
-            BuildableName = "Swash.app"
-            BlueprintName = "Swash"
-            ReferencedContainer = "container:Swash.xcodeproj">
+            BlueprintIdentifier = "0BB8B99E7BF07805CFDC5B0A3F2B73D5"
+            BuildableName = "Pods_Swash.framework"
+            BlueprintName = "Pods-Swash"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "574AFA1F1DF556B300AE68AF"
-            BuildableName = "Swash.app"
-            BlueprintName = "Swash"
-            ReferencedContainer = "container:Swash.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

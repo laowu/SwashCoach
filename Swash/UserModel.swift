@@ -9,6 +9,9 @@
 import Foundation
 
 
+import SwiftyJSON
+
+
 struct User {
     var name: String?
     var id: String?
@@ -19,4 +22,12 @@ struct User {
         self.id = id
         self.rating = rating
     }
+    
+    
+    
+
+    
 }
+
+
+
